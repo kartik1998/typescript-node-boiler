@@ -2,6 +2,8 @@
 
 ![](https://img.shields.io/badge/typescript-node-blue)
 
+* Module boilerplate in `module` branch
+
 ### Setup
 
 - First clone the repository
