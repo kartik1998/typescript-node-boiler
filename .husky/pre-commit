@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "[pre-commit] running eslint, prettier"
+prettier --write src > /dev/null
+npm run lint:fix > /dev/null
+
