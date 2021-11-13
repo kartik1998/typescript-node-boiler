@@ -1,7 +1,8 @@
 const config: any = {
   default: {
-    MONGODB_USER: '',
-    MONGODB_PASS: '',
+    MONGO_USER: '',
+    MONGO_PASS: '',
+    MONGO_URI: 'mongodb://localhost:27017/boiler-dev'
   },
   development: {},
   staging: {},
