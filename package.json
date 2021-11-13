@@ -2,7 +2,7 @@
   "name": "ts-node-boiler",
   "version": "1.0.0",
   "description": "typescript nodejs boilerplate",
-  "main": "bin/www",
+  "main": "build/src/index.js",
   "scripts": {
     "install": "npx husky install",
     "start": "node build/src/index.js",
