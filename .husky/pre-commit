@@ -1,7 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "[pre-commit] running eslint, prettier"
+echo "[pre-commit] running eslint, prettier parallely"
 prettier --write src > /dev/null
 npm run lint:fix > /dev/null
+
+# https://github.com/kartik1998/dev-automation/tree/534df74b4de1a9b48544e631ceeb5164d7b97cbd/.husky
 
