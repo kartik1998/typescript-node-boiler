@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/typescript-node-blue)
 
-* Module boilerplate in `module` branch
+- Module boilerplate in `module` branch
 
 ### Setup
 
@@ -16,50 +16,41 @@
 .
 ├── README.md
 ├── bin
-│   └── www
-├── build
-│   ├── config
-│   │   ├── defaults.js
-│   │   └── index.js
-│   ├── index.js
-│   └── src
-│       ├── app
-│       │   ├── controllers
-│       │   │   └── user.js
-│       │   └── services
-│       │       └── user.js
-│       ├── index.js
-│       ├── lib
-│       │   ├── apiout.js
-│       │   ├── config.js
-│       │   └── status-codes.js
-│       └── routes
-│           ├── index.js
-│           └── v1
-│               ├── index.js
-│               └── user.js
+│   └── www
 ├── config
-│   ├── defaults.ts
-│   └── index.ts
+│   ├── defaults.ts
+│   └── index.ts
+├── docker-compose.yml
+├── image
 ├── index.ts
 ├── package-lock.json
 ├── package.json
 ├── src
-│   ├── app
-│   │   ├── controllers
-│   │   │   └── user.ts
-│   │   └── services
-│   │       └── user.ts
-│   ├── index.ts
-│   ├── lib
-│   │   ├── apiout.ts
-│   │   └── status-codes.ts
-│   └── routes
-│       ├── index.ts
-│       └── v1
-│           ├── index.ts
-│           └── user.ts
+│   ├── app
+│   │   ├── controllers
+│   │   │   └── user.ts
+│   │   ├── models
+│   │   │   └── user.ts
+│   │   ├── repositories
+│   │   │   └── user.ts
+│   │   └── services
+│   │       └── user.ts
+│   ├── connections
+│   │   ├── index.ts
+│   │   └── mongo.ts
+│   ├── index.ts
+│   ├── lib
+│   │   ├── apiout.ts
+│   │   ├── status-codes.ts
+│   │   └── utils.ts
+│   └── routes
+│       ├── index.ts
+│       └── v1
+│           ├── index.ts
+│           └── user.ts
 └── tsconfig.json
+
+12 directories, 23 files
 ```
 
 ### Code Formatting
