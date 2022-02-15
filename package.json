@@ -4,7 +4,7 @@
   "description": "typescript nodejs boilerplate",
   "main": "bin/www",
   "scripts": {
-    "install": "npx husky install",
+    "prepare": "npx husky install",
     "start": "node bin/www",
     "dev": "nodemon bin/www",
     "compile": "tsc -p tsconfig.json",
