@@ -1,7 +1,7 @@
-import User from '@root/app/models/user';
+import * as UserRepo from '@app/repositories/user';
 
 export async function insertUser(name: string) {
-  const user = new User({ name, date: new Date() });
-  const result = await user.save();
+  const user = { name, date: new Date() };
+  const result = await UserRepo.insert(user);
   return result;
 }
